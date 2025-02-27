@@ -56,11 +56,6 @@ AND PC1.RAM = PC2.RAM
 
 -----------------------------------------
 
-SELECT * FROM PC
-SELECT * FROM PRODUCT
-
------------------------------------------
-
 SELECT DISTINCT PR1.MAKER
 FROM PRODUCT AS PR1, PRODUCT AS PR2,
 PC AS PC1, PC AS PC2
