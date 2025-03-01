@@ -24,8 +24,7 @@ FROM MOVIE
 WHERE MOVIE.LENGTH > (
 SELECT MOVIE.LENGTH
 FROM MOVIE
-WHERE MOVIE.TITLE = 'Star Wars'
-)
+WHERE MOVIE.TITLE = 'Star Wars')
 
 ---------------------------------------
 
